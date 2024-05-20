@@ -1,0 +1,23 @@
+button{
+    border-width: 6px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 100px;
+    vertical-align: top;
+    line-height: 100px;
+    border-left: 0;
+    border-top: 0;
+}
+
+button:disabled{
+    border-color: black;
+}
+
+.linha2{
+    border-bottom: 0;
+}
+
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
